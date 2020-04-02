@@ -9,9 +9,9 @@ import glob, cv2, torch
 import numpy as np
 from os.path import realpath, dirname, join
 
-from net import SiamRPNvot
-from run_SiamRPN import SiamRPN_init, SiamRPN_track
-from utils import get_axis_aligned_bbox, cxy_wh_2_rect
+from dasiamrpn.net import SiamRPNvot
+from dasiamrpn.run_SiamRPN import SiamRPN_init, SiamRPN_track
+from dasiamrpn.utils import get_axis_aligned_bbox, cxy_wh_2_rect
 
 # load net
 net = SiamRPNvot()
